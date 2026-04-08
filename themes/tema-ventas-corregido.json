@@ -1,0 +1,46 @@
+{
+  "name": "Tema Ventas Corregido",
+  "dataColors": [
+    "#0F4C81",
+    "#3E8EDE",
+    "#F4B400",
+    "#DB4437",
+    "#0F9D58",
+    "#AB47BC",
+    "#00ACC1",
+    "#FF7043"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#252423",
+  "tableAccent": "#0F4C81",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#252423" } },
+            "fontSize": 12,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ]
+      }
+    },
+    "comboChart": {
+      "*": {
+        "categoryAxis": [
+          {
+            "show": true,
+            "labelColor": { "solid": { "color": "#404040" } }
+          }
+        ],
+        "valueAxis": [
+          {
+            "show": true,
+            "labelColor": { "solid": { "color": "#404040" } }
+          }
+        ]
+      }
+    }
+  }
+}
