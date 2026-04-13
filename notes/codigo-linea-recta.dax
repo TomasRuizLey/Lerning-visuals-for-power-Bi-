@@ -1,0 +1,10 @@
+LineaRecta =
+VAR MesNum = SELECTEDVALUE('DimCalendario'[MesNumero])
+VAR Inicio = 998
+VAR Fin = 4227
+VAR Pasos = 11
+RETURN
+    Inicio + DIVIDE((Fin - Inicio) * (MesNum - 1), Pasos)
+
+LineaRectaRedondeada =
+ROUND([LineaRecta], 0)
